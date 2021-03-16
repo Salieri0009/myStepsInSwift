@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94347E5224FF9F670013ED98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94347E5124FF9F670013ED98 /* AppDelegate.swift */; };
+		94347E5424FF9F670013ED98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94347E5324FF9F670013ED98 /* SceneDelegate.swift */; };
+		94347E5924FF9F670013ED98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94347E5724FF9F670013ED98 /* Main.storyboard */; };
+		94347E5B24FF9F690013ED98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94347E5A24FF9F690013ED98 /* Assets.xcassets */; };
+		94347E5E24FF9F690013ED98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94347E5C24FF9F690013ED98 /* LaunchScreen.storyboard */; };
+		94347E6924FF9FE90013ED98 /* APODModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94347E6824FF9FE90013ED98 /* APODModel.swift */; };
+		94347E6C24FFA2A00013ED98 /* APODViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94347E6A24FFA2A00013ED98 /* APODViewController.swift */; };
+		94347E6F24FFA4E00013ED98 /* APODInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94347E6E24FFA4E00013ED98 /* APODInteractor.swift */; };
+		94347E7124FFA6E50013ED98 /* APODPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94347E7024FFA6E50013ED98 /* APODPresenter.swift */; };
+		94347E7424FFAAE00013ED98 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94347E7324FFAAE00013ED98 /* Network.swift */; };
+		94347E7624FFAB1A0013ED98 /* NetworksModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94347E7524FFAB1A0013ED98 /* NetworksModels.swift */; };
+		94347E7824FFBF250013ED98 /* NeoWSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94347E7724FFBF250013ED98 /* NeoWSViewController.swift */; };
+		94347E7A24FFBF410013ED98 /* NeoWSInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94347E7924FFBF410013ED98 /* NeoWSInteractor.swift */; };
+		94347E7C24FFBF660013ED98 /* NeoWSPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94347E7B24FFBF660013ED98 /* NeoWSPresenter.swift */; };
+		94347E7E24FFBF7F0013ED98 /* NeoWSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94347E7D24FFBF7F0013ED98 /* NeoWSModel.swift */; };
+		94C8DAAD2504D6AE00B67D8F /* NeoWSTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C8DAAB2504D6AE00B67D8F /* NeoWSTableViewCell.swift */; };
+		94C8DAAE2504D6AE00B67D8F /* NeoWSTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94C8DAAC2504D6AE00B67D8F /* NeoWSTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94347E4E24FF9F670013ED98 /* NasaApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NasaApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94347E5124FF9F670013ED98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94347E5324FF9F670013ED98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		94347E5824FF9F670013ED98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94347E5A24FF9F690013ED98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94347E5D24FF9F690013ED98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94347E5F24FF9F690013ED98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94347E6824FF9FE90013ED98 /* APODModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODModel.swift; sourceTree = "<group>"; };
+		94347E6A24FFA2A00013ED98 /* APODViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODViewController.swift; sourceTree = "<group>"; };
+		94347E6E24FFA4E00013ED98 /* APODInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODInteractor.swift; sourceTree = "<group>"; };
+		94347E7024FFA6E50013ED98 /* APODPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODPresenter.swift; sourceTree = "<group>"; };
+		94347E7324FFAAE00013ED98 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		94347E7524FFAB1A0013ED98 /* NetworksModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworksModels.swift; sourceTree = "<group>"; };
+		94347E7724FFBF250013ED98 /* NeoWSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoWSViewController.swift; sourceTree = "<group>"; };
+		94347E7924FFBF410013ED98 /* NeoWSInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoWSInteractor.swift; sourceTree = "<group>"; };
+		94347E7B24FFBF660013ED98 /* NeoWSPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoWSPresenter.swift; sourceTree = "<group>"; };
+		94347E7D24FFBF7F0013ED98 /* NeoWSModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoWSModel.swift; sourceTree = "<group>"; };
+		94C8DAAB2504D6AE00B67D8F /* NeoWSTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoWSTableViewCell.swift; sourceTree = "<group>"; };
+		94C8DAAC2504D6AE00B67D8F /* NeoWSTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NeoWSTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94347E4B24FF9F670013ED98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94347E4524FF9F670013ED98 = {
+			isa = PBXGroup;
+			children = (
+				94347E5024FF9F670013ED98 /* NasaApi */,
+				94347E4F24FF9F670013ED98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94347E4F24FF9F670013ED98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94347E4E24FF9F670013ED98 /* NasaApi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94347E5024FF9F670013ED98 /* NasaApi */ = {
+			isa = PBXGroup;
+			children = (
+				94347E7224FFAAA80013ED98 /* Network */,
+				94347E6724FF9FBC0013ED98 /* Models */,
+				94347E6624FF9F920013ED98 /* NeoWS */,
+				94347E6524FF9F830013ED98 /* APOD */,
+				94347E5124FF9F670013ED98 /* AppDelegate.swift */,
+				94347E5324FF9F670013ED98 /* SceneDelegate.swift */,
+				94347E5724FF9F670013ED98 /* Main.storyboard */,
+				94347E5A24FF9F690013ED98 /* Assets.xcassets */,
+				94347E5C24FF9F690013ED98 /* LaunchScreen.storyboard */,
+				94347E5F24FF9F690013ED98 /* Info.plist */,
+			);
+			path = NasaApi;
+			sourceTree = "<group>";
+		};
+		94347E6524FF9F830013ED98 /* APOD */ = {
+			isa = PBXGroup;
+			children = (
+				94347E6A24FFA2A00013ED98 /* APODViewController.swift */,
+				94347E6E24FFA4E00013ED98 /* APODInteractor.swift */,
+				94347E7024FFA6E50013ED98 /* APODPresenter.swift */,
+			);
+			path = APOD;
+			sourceTree = "<group>";
+		};
+		94347E6624FF9F920013ED98 /* NeoWS */ = {
+			isa = PBXGroup;
+			children = (
+				94347E7F2504D32B0013ED98 /* views */,
+				94347E7724FFBF250013ED98 /* NeoWSViewController.swift */,
+				94347E7924FFBF410013ED98 /* NeoWSInteractor.swift */,
+				94347E7B24FFBF660013ED98 /* NeoWSPresenter.swift */,
+			);
+			path = NeoWS;
+			sourceTree = "<group>";
+		};
+		94347E6724FF9FBC0013ED98 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				94347E6824FF9FE90013ED98 /* APODModel.swift */,
+				94347E7D24FFBF7F0013ED98 /* NeoWSModel.swift */,
+				94347E7524FFAB1A0013ED98 /* NetworksModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		94347E7224FFAAA80013ED98 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				94347E7324FFAAE00013ED98 /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		94347E7F2504D32B0013ED98 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				94C8DAAB2504D6AE00B67D8F /* NeoWSTableViewCell.swift */,
+				94C8DAAC2504D6AE00B67D8F /* NeoWSTableViewCell.xib */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94347E4D24FF9F670013ED98 /* NasaApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94347E6224FF9F690013ED98 /* Build configuration list for PBXNativeTarget "NasaApi" */;
+			buildPhases = (
+				94347E4A24FF9F670013ED98 /* Sources */,
+				94347E4B24FF9F670013ED98 /* Frameworks */,
+				94347E4C24FF9F670013ED98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NasaApi;
+			productName = NasaApi;
+			productReference = 94347E4E24FF9F670013ED98 /* NasaApi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94347E4624FF9F670013ED98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Maxim;
+				TargetAttributes = {
+					94347E4D24FF9F670013ED98 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 94347E4924FF9F670013ED98 /* Build configuration list for PBXProject "NasaApi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94347E4524FF9F670013ED98;
+			productRefGroup = 94347E4F24FF9F670013ED98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94347E4D24FF9F670013ED98 /* NasaApi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94347E4C24FF9F670013ED98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94347E5E24FF9F690013ED98 /* LaunchScreen.storyboard in Resources */,
+				94347E5B24FF9F690013ED98 /* Assets.xcassets in Resources */,
+				94C8DAAE2504D6AE00B67D8F /* NeoWSTableViewCell.xib in Resources */,
+				94347E5924FF9F670013ED98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94347E4A24FF9F670013ED98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94347E7E24FFBF7F0013ED98 /* NeoWSModel.swift in Sources */,
+				94347E7824FFBF250013ED98 /* NeoWSViewController.swift in Sources */,
+				94347E6F24FFA4E00013ED98 /* APODInteractor.swift in Sources */,
+				94347E7C24FFBF660013ED98 /* NeoWSPresenter.swift in Sources */,
+				94347E7424FFAAE00013ED98 /* Network.swift in Sources */,
+				94C8DAAD2504D6AE00B67D8F /* NeoWSTableViewCell.swift in Sources */,
+				94347E5224FF9F670013ED98 /* AppDelegate.swift in Sources */,
+				94347E5424FF9F670013ED98 /* SceneDelegate.swift in Sources */,
+				94347E6C24FFA2A00013ED98 /* APODViewController.swift in Sources */,
+				94347E7124FFA6E50013ED98 /* APODPresenter.swift in Sources */,
+				94347E7A24FFBF410013ED98 /* NeoWSInteractor.swift in Sources */,
+				94347E6924FF9FE90013ED98 /* APODModel.swift in Sources */,
+				94347E7624FFAB1A0013ED98 /* NetworksModels.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94347E5724FF9F670013ED98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94347E5824FF9F670013ED98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94347E5C24FF9F690013ED98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94347E5D24FF9F690013ED98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94347E6024FF9F690013ED98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94347E6124FF9F690013ED98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94347E6324FF9F690013ED98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NasaApi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NasaApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94347E6424FF9F690013ED98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NasaApi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NasaApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94347E4924FF9F670013ED98 /* Build configuration list for PBXProject "NasaApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94347E6024FF9F690013ED98 /* Debug */,
+				94347E6124FF9F690013ED98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94347E6224FF9F690013ED98 /* Build configuration list for PBXNativeTarget "NasaApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94347E6324FF9F690013ED98 /* Debug */,
+				94347E6424FF9F690013ED98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94347E4624FF9F670013ED98 /* Project object */;
+}
